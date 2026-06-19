@@ -1,0 +1,11 @@
+name: "Lsktp"
+version: "0.0.1"
+main: com.lsktp.Lsktp.Lsktp
+api-version: "1.21"
+author: "Lightseeking Studio"
+description: "This is a main server mod that does not require an OP to teleport players to specified coordinates. It can be better compatible with the world map and minimap on the Integration Pack server, and can also be used for extreme mode/cheat-free survival teleportation. After adding it to the server, the client does not need to add this module. The command /lsktp x y z can be used to teleport, and Xaero maps can be adapted to the command by adjusting the configuration."
+commands:
+  lsktp:
+    description: "使用/lsktp传送到世界上的一个坐标位置"
+    usage: "/lsktp <x> <y> <z>"
+    aliases: ["tpc"]
